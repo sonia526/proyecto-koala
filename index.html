@@ -13,36 +13,38 @@
 </head>
 <body>
 		<!-- primera seccion -->
-		<section class="koala-background">
+		<section class="koala-background" id="first-section">
 			<!-- navbar -->
-			<nav class="navbar">
+			<nav class="navbar navegador">
 				<div class="container">
 					<div class="navbar-header">
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded=>
 							<span class="sr-only">Toggle navigation</span>
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="#">Save The koala</a>
+						<a class="navbar-brand logo" href="#">Save The koala</a>
 					</div>
 
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav navbar-right">
-							<li><a href="#">Foundation</a></li>
-							<li><a href="#">Koalas</a></li>
-							<li><a href="#">Donate</a></li>
+							<!-- no se si esta bien xd -->
+							<li><a  class="links" href="#">Foundation</a></li>
+							<li><a class="links" href="#">Koalas</a></li>
+							<li><a  class="links" href="#">Donate</a></li>
 						</ul>
 					</div><!-- /.navbar-collapse -->
 				</div>
 			</nav>
-			<div class="container">
+			<div class="container-fluid" >
 				<div class="row">
 					<div class="col-md-6">
 						<div class="text-izq">
-							<h1>Save The Koala</h1>
-							<p>Koalas are declining in rapid numbers because the trees where they spend a majority of their time are being quickly chopped down. Activists need to take action to try and protect these animals’ habitats so they do not become a thing of the past.</p>
-							<button type="button" class="btn btn-verde btn-lg">See more</button>
+							<h1 id="bienvenida">Save The Koala</h1>
+							<p id="bienvenida">Koalas are declining in rapid numbers because the trees <br> where they spend a majority of their time are being <br> quickly chopped down. Activists need to take action to <br> try and protect these animals’ habitats so they do not <br> become a thing of the past.</p><br>
+							<!-- <button type="button" class="btn btn-verde btn-lg " >See more</button> -->
+							<a  id="button" href="#">See more</a>
 						</div>
 					</div>
 				</div>
@@ -90,7 +92,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="fourth-section">
+			<section class="fourth-section" id="koalas">
 				<div class="container">
 					<div class="row">
 						<div class="col-6 col-md-6 ">
@@ -108,7 +110,8 @@
 					<div class="row">
 						<h2 class="titulo-quinta-seccion">It’s not hard to see how we can help.</h2>
 						<div class="col-lg-4 col-md-4 col-xs-12 text-center">
-							<i class="fa fa-heart fa-5x"aria-hidden="true"></i>
+							<!-- <i class="fa fa-heart fa-5x"aria-hidden="true"></i> -->
+							<span class="glyphicon heart"></span>
 							<p>There are many people who are working very hard to achieve the conservation of the koala and you can join them by visiting <a href="">www.savethekoala.com.</a></p>
 						</div>
 
